@@ -3,6 +3,14 @@ package questiontwo;
 import java.util.Scanner;
 
 public class ElementArray {
+    public MetalElement[] getMetalElementsArray() {
+        return metalElementsArray;
+    }
+
+    public NonMetalElement[] getNonMetalElementsArray() {
+        return nonMetalElementsArray;
+    }
+
     MetalElement[] metalElementsArray = new MetalElement[2];
     NonMetalElement[] nonMetalElementsArray = new NonMetalElement[2];
 
